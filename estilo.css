@@ -13,6 +13,7 @@ body{
 
 #titulo h1{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 #containerProdutos {
     /* Define um flex container */
@@ -39,6 +40,7 @@ body{
 }
 .divFixa h3{
     text-align: center;
+    font-family: 'Roboto', sans-serif;  
 }
 
 .divFixa a {
@@ -55,4 +57,5 @@ body{
   margin-left: 1.05em;
   margin-right: 1.05em;
   margin-top: 10px;
+  font-family: 'Lato', sans-serif;
 }

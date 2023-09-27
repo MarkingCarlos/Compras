@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+#titulo{
+    padding: 20px 0px;
+   
+}
+
+#titulo h1{
+    text-align: center;
+}
+#containerProdutos {
+    /* Define um flex container */
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divs se quebrem para a próxima linha */
+    justify-content: center ; /* Centraliza as divs horizontalmente */
+}
+
+.divFixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+    overflow: hidden;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.divFixa img {
+    max-width: 100%;
+    height: auto;
+}
+.divFixa h3{
+    text-align: center;
+}
+
+.divFixa a {
+    margin-top: 1.05em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+.divFixa p {
+  text-align: center;
+  margin-left: 1.05em;
+  margin-right: 1.05em;
+  margin-top: 10px;
+}

@@ -42,14 +42,14 @@ const produtos = [
         imgSrc: 'img/suporte.png',
         nome: 'Suporte parede controle',
         descricao: 'Não tenho muito o que falar sobre isso aqui né',
-        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        linkComprar: 'https://shopee.com.br/Suporte-de-Controle-Universal-de-Parede-Acrílico-Autoadesivo-PS5-PS4-PS3-Xbox-Switch-Fone-de-Ouvido-Gamepad-Jogo-i.376326645.22091473937?sp_atk=ef791093-e795-42ec-991b-e145529267f0&xptdk=ef791093-e795-42ec-991b-e145529267f0',
         categoria: 'Stuff',
     },
     {
         imgSrc: 'img/hidratante.png',
         nome: 'Hidratante Facial',
         descricao: 'Não precisa ser o mesmo da foto, Ps: Mas considere que minha pele é oliosa ',
-        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        linkComprar: 'https://www.amazon.com.br/Hidratante-Facial-Neutrogena-Hydro-Boost/dp/B06XQ27YLL/ref=sr_1_1?crid=2MP64RIOVB29O&keywords=hydro+boost+neutrogena&qid=1695940553&sprefix=hydro+boost+%2Caps%2C192&sr=8-1',
         categoria: 'SkinCare',
     },
     {
@@ -63,7 +63,7 @@ const produtos = [
         imgSrc: 'img/cooler.png',
         nome: 'Watter Cooler',
         descricao: 'Deixar o PC geladinho',
-        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        linkComprar: 'https://www.amazon.com.br/Water-Cooler-Corsair-H55-CW-9060052-WW/dp/B09B1WHHCP/ref=asc_df_B09B1WHHCP/?tag=googleshopp00-20&linkCode=df0&hvadid=647574993564&hvpos=&hvnetw=g&hvrand=3427000654612045710&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100635&hvtargid=pla-1624281914872&psc=1',
         categoria: 'Computador',
     },
     {
@@ -86,6 +86,13 @@ const produtos = [
         descricao: 'Ajude meu pc a ficar bonito. PS: Não precisa ser esse mas se possivel branco',
         linkComprar: 'https://www.kabum.com.br/produto/108089/gabinete-gamer-t-dagger-cube-white-mid-tower-lateral-em-vidro-branco-t-tgc305w',
         categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/acai.png',
+        nome: 'Açãi',
+        descricao: 'Com leite em pó e nuttela please',
+        linkComprar: 'https://www.ifood.com.br/delivery/sao-jose-do-rio-preto-sp/acai-primor-unidade-maceno-jardim-america/d32c3eb6-693b-4dbd-b752-1a9220cf882b?prato=1313025d-59dd-4a85-8d82-c837cc4e8362',
+        categoria: 'Comida',
     },
     // Adicione mais produtos conforme necessário
 ];
@@ -110,6 +117,7 @@ function exibirProdutosPorCategoria(categoria) {
             const linkComprar = document.createElement('a');
             linkComprar.href = produto.linkComprar;
             linkComprar.textContent = 'Comprar';
+            linkComprar.target = "_blank";
 
             divProduto.appendChild(img);
             divProduto.appendChild(h3);

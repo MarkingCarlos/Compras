@@ -61,3 +61,26 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
+#nav{
+    background-color: whitesmoke;
+    width: 100%;
+    
+    
+}
+#categorias{
+    display: flex;
+    justify-content: center;
+}
+#categorias label{
+    font-family: 'Lato', sans-serif;
+}
+
+#categorias select{
+    margin-left: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#categorias select:focus{
+    outline: none;
+}

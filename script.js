@@ -1,5 +1,6 @@
 
-
+const containerProdutos = document.getElementById('containerProdutos');
+const categoriaSelect = document.getElementById('categoriaSelect');
 // Array de produtos
 const produtos = [
     {
@@ -27,7 +28,7 @@ const produtos = [
         imgSrc: 'img/cabos.png',
         nome: 'Organizador de cabos',
         descricao: 'Não tenho o que falar disso kkkk',
-        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        linkComprar: 'https://www.amazon.com.br/Guia-Cabo-Fechado-Alta-Densidade/dp/B08B79TG3R/ref=sr_1_2?crid=3HVMSJRK76VEG&keywords=canaleta+organizador+de+cabos&qid=1695927343&sprefix=cana%2Caps%2C200&sr=8-2',
         categoria: 'Stuff',
     },
     {
@@ -54,33 +55,42 @@ const produtos = [
     // Adicione mais produtos conforme necessário
 ];
 
-// Local onde os produtos serão adicionados
-const containerProdutos = document.getElementById('containerProdutos');
+function exibirProdutosPorCategoria(categoria) {
+    containerProdutos.innerHTML = ''; // Limpa o conteúdo anterior
 
-// Loop para criar divs de produtos
-produtos.forEach((produto) => {
-    const divProduto = document.createElement('div');
-    divProduto.classList.add('divFixa');
+    produtos.forEach((produto) => {
+        if (categoria === 'todos' || produto.categoria === categoria) {
+            const divProduto = document.createElement('div');
+            divProduto.classList.add('divFixa');
 
-    const img = document.createElement('img');
-    img.src = produto.imgSrc;
+            const img = document.createElement('img');
+            img.src = produto.imgSrc;
 
-    const h3 = document.createElement('h3');
-    h3.textContent = produto.nome;
+            const h3 = document.createElement('h3');
+            h3.textContent = produto.nome;
 
-    const p = document.createElement('p');
-    p.textContent = produto.descricao;
+            const p = document.createElement('p');
+            p.textContent = produto.descricao;
 
-    const linkComprar = document.createElement('a');
-    linkComprar.href = produto.linkComprar; // Define o URL do link
-    linkComprar.textContent = 'Comprar';
+            const linkComprar = document.createElement('a');
+            linkComprar.href = produto.linkComprar;
+            linkComprar.textContent = 'Comprar';
 
-    divProduto.appendChild(img);
-    divProduto.appendChild(h3);
-    divProduto.appendChild(p);
-    divProduto.appendChild(linkComprar);
+            divProduto.appendChild(img);
+            divProduto.appendChild(h3);
+            divProduto.appendChild(p);
+            divProduto.appendChild(linkComprar);
 
-    containerProdutos.appendChild(divProduto);
+            containerProdutos.appendChild(divProduto);
+        }
+    });
+}
 
-
+// Event listener para o menu de categorias
+categoriaSelect.addEventListener('change', () => {
+    const categoriaSelecionada = categoriaSelect.value;
+    exibirProdutosPorCategoria(categoriaSelecionada);
 });
+
+// Inicialmente, exibir todos os produtos
+exibirProdutosPorCategoria('todos');

@@ -27,7 +27,7 @@ const produtos = [
         linkComprar: 'https://exemplo.com/comprar-produto-1',
     },
     {
-        imgSrc: 'img/fita.png',
+        imgSrc: 'img/Fita.png',
         nome: 'Fita 3m',
         descricao: 'De preferencia a que aguente 5kg',
         linkComprar: 'https://exemplo.com/comprar-produto-1',

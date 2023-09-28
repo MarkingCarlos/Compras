@@ -52,6 +52,41 @@ const produtos = [
         linkComprar: 'https://exemplo.com/comprar-produto-1',
         categoria: 'SkinCare',
     },
+    {
+        imgSrc: 'img/xbox.png',
+        nome: 'Assinatura GamePass',
+        descricao: 'Sustente meu hobby',
+        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/cooler.png',
+        nome: 'Watter Cooler',
+        descricao: 'Deixar o PC geladinho',
+        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/Fone.png',
+        nome: 'Fone de ouvido',
+        descricao: 'Fone muito bom para eu esquecer o mundo externo. Ps: Esse modelo em especial',
+        linkComprar: 'https://pt.aliexpress.com/item/1005005189152487.html?spm=a2g0o.productlist.main.9.6f9d6f59w0bBTZ&algo_pvid=61b8d4f7-93be-483d-9455-37392a1413c5&algo_exp_id=61b8d4f7-93be-483d-9455-37392a1413c5-4&pdp_npi=4%40dis%21BRL%21478.53%21296.67%21%21%2190.36%21%21%402103204216959320212564265ec6c5%2112000032467441423%21sea%21BR%212235167962%21&curPageLogUid=EpdXe9CwC7mh',
+        categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/Fita_led.png',
+        nome: 'Fita de Led',
+        descricao: 'Quarto vai ficar lindo',
+        linkComprar: 'https://pt.aliexpress.com/item/1005005418001881.html?spm=a2g0o.productlist.main.3.415f3c22Xeh2VV&algo_pvid=85f83e35-a6bb-41f6-af50-4577ce71dc63&aem_p4p_detail=2023092813193712432139877359000002699665&algo_exp_id=85f83e35-a6bb-41f6-af50-4577ce71dc63-1&pdp_npi=4%40dis%21BRL%21118.14%2138.98%21%21%21163.22%21%21%402103249616959323777285923e9da8%2112000032982849298%21sea%21BR%212235167962%21&curPageLogUid=haFAIYDNrfio&search_p4p_id=2023092813193712432139877359000002699665_2',
+        categoria: 'Decoração',
+    },
+    {
+        imgSrc: 'img/Gabinete.png',
+        nome: 'Gabinete',
+        descricao: 'Ajude meu pc a ficar bonito. PS: Não precisa ser esse mas se possivel branco',
+        linkComprar: 'https://www.kabum.com.br/produto/108089/gabinete-gamer-t-dagger-cube-white-mid-tower-lateral-em-vidro-branco-t-tgc305w',
+        categoria: 'Computador',
+    },
     // Adicione mais produtos conforme necessário
 ];
 

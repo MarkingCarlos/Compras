@@ -94,6 +94,41 @@ const produtos = [
         linkComprar: 'https://www.ifood.com.br/delivery/sao-jose-do-rio-preto-sp/acai-primor-unidade-maceno-jardim-america/d32c3eb6-693b-4dbd-b752-1a9220cf882b?prato=1313025d-59dd-4a85-8d82-c837cc4e8362',
         categoria: 'Comida',
     },
+    {
+        imgSrc: 'img/pizza.png',
+        nome: 'Pizza',
+        descricao: 'Sabor: Bacon, 4 queijos ou franco com catu',
+        linkComprar: 'https://www.ifood.com.br/delivery/sao-jose-do-rio-preto-sp/ponto-da-pizza-jardim-seyon/89d5c7bc-cde4-4e83-af85-472d5f19b6f5?prato=0e30b101-8c98-37b5-a3f0-b1644ae7429b',
+        categoria: 'Comida',
+    },
+    {
+        imgSrc: 'img/fan.png',
+        nome: 'Fan',
+        descricao: 'Ajudar o PC a respirar',
+        linkComprar: 'https://www.kabum.com.br/produto/153639/cooler-fan-rise-mode-galaxy-motherboard-140mm-led-argb-5v-preto-rm-mb-04-5v?gclid=CjwKCAjwyNSoBhA9EiwA5aYlb4f0weZznRUlSu7xed0aQhJ9mrRE0laXQn3yunfuPWJh7H07U7E41hoCJL0QAvD_BwE',
+        categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/furadeira.png',
+        nome: 'Furadeira',
+        descricao: 'Carlos Bob o Construtor',
+        linkComprar: 'https://www.amazon.com.br/Parafusadeira-Furadeira-WAP-Carregador-Acessórios/dp/B09V1SM8QB/ref=asc_df_B09V1SM8QB/?tag=googleshopp00-20&linkCode=df0&hvadid=379787210777&hvpos=&hvnetw=g&hvrand=17742068108702112560&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100635&hvtargid=pla-1680040482634&psc=1',
+        categoria: 'Stuff',
+    },
+    {
+        imgSrc: 'img/mifone.png',
+        nome: 'MicroFone',
+        descricao: 'Ajude a facilitar minha vida',
+        linkComprar: 'https://pt.aliexpress.com/item/1005005270182506.html?spm=a2g0o.productlist.main.1.65ef2317RnD1qZ&algo_pvid=796874aa-43f9-4b81-a439-9d877d1271f1&aem_p4p_detail=2023092815570583499922675670002927678&algo_exp_id=796874aa-43f9-4b81-a439-9d877d1271f1-0&pdp_npi=4%40dis%21BRL%21318.44%21178.7%21%21%21439.96%21%21%402103226116959418250026993eb3d0%2112000032430106679%21sea%21BR%212235167962%21&curPageLogUid=mlpofeWFfeLa&search_p4p_id=2023092815570583499922675670002927678_1',
+        categoria: 'Computador',
+    },
+    {
+        imgSrc: 'img/relo.png',
+        nome: 'Relogio',
+        descricao: 'LINDÃO EM',
+        linkComprar: 'https://pt.aliexpress.com/item/1005005791565156.html?spm=a2g0o.best.moretolove.78.533d22aeBDrl7l&gps-id=pcBestMore2Love&scm=1007.40000.326746.0&scm_id=1007.40000.326746.0&scm-url=1007.40000.326746.0&pvid=6ff75fab-633e-4628-b8ed-07c9d00a6a58&_t=gps-id%3ApcBestMore2Love%2Cscm-url%3A1007.40000.326746.0%2Cpvid%3A6ff75fab-633e-4628-b8ed-07c9d00a6a58%2Ctpp_buckets%3A668%232846%238109%23290&pdp_npi=4%40dis%21BRL%21589.27%21200.64%21%21%21814.13%21%21%402101e6f316959419838982971d4ff5%2112000034369350571%21rec%21BR%212235167962%21&gatewayAdapt=glo2bra',
+        categoria: 'Roupas',
+    },
     // Adicione mais produtos conforme necessário
 ];
 

@@ -6,7 +6,7 @@ const produtos = [
         imgSrc: 'img/folha_caderno.png',
         nome: 'Refiel de folhas caderno',
         descricao: 'Verificar tamanho do meu caderno ou me dar um novo',
-        linkComprar: 'https://exemplo.com/comprar-produto-1',
+        linkComprar: 'https://www.amazon.com.br/Folhas-Caderno-Pautado-Compatível-Inteligente/dp/B0C9YP4KMR/ref=asc_df_B0C9YP4KMR/?tag=googleshopp00-20&linkCode=df0&hvadid=647391634209&hvpos=&hvnetw=g&hvrand=9022196904483518692&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100635&hvtargid=pla-2201871092064&psc=1',
     },
     {
         imgSrc: 'img/canetes.png',

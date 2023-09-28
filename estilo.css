@@ -51,6 +51,7 @@ body{
     color: #fff;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
+    font-family: 'Roboto', sans-serif;  
 }
 .divFixa p {
   text-align: center;
@@ -59,3 +60,4 @@ body{
   margin-top: 10px;
   font-family: 'Lato', sans-serif;
 }
+

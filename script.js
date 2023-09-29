@@ -8,7 +8,8 @@ const produtos = [
         nome: 'Refiel de folhas caderno',
         descricao: 'Verificar tamanho do meu caderno ou me dar um novo',
         linkComprar: 'https://www.amazon.com.br/Folhas-Caderno-Pautado-Compatível-Inteligente/dp/B0C9YP4KMR/ref=asc_df_B0C9YP4KMR/?tag=googleshopp00-20&linkCode=df0&hvadid=647391634209&hvpos=&hvnetw=g&hvrand=9022196904483518692&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100635&hvtargid=pla-2201871092064&psc=1',
-        categoria: 'Papelaria'
+        categoria: 'Papelaria',
+        visivel: 'falso',
     },
     {
         imgSrc: 'img/canetes.png',
@@ -129,6 +130,13 @@ const produtos = [
         linkComprar: 'https://pt.aliexpress.com/item/1005005791565156.html?spm=a2g0o.best.moretolove.78.533d22aeBDrl7l&gps-id=pcBestMore2Love&scm=1007.40000.326746.0&scm_id=1007.40000.326746.0&scm-url=1007.40000.326746.0&pvid=6ff75fab-633e-4628-b8ed-07c9d00a6a58&_t=gps-id%3ApcBestMore2Love%2Cscm-url%3A1007.40000.326746.0%2Cpvid%3A6ff75fab-633e-4628-b8ed-07c9d00a6a58%2Ctpp_buckets%3A668%232846%238109%23290&pdp_npi=4%40dis%21BRL%21589.27%21200.64%21%21%21814.13%21%21%402101e6f316959419838982971d4ff5%2112000034369350571%21rec%21BR%212235167962%21&gatewayAdapt=glo2bra',
         categoria: 'Roupas',
     },
+    {
+        imgSrc: 'img/can.png',
+        nome: 'WebCan',
+        descricao: 'Motivos: pq é mais facil pra ligar',
+        linkComprar: 'https://pt.aliexpress.com/item/1005005457935238.html?spm=a2g0o.productlist.main.3.183b7be7KpZR1J&algo_pvid=c5eaf11c-aff2-450a-9f61-5b42fa724d56&aem_p4p_detail=2023092816224011124244877655070002874794&algo_exp_id=c5eaf11c-aff2-450a-9f61-5b42fa724d56-1&pdp_npi=4%40dis%21BRL%21838.11%21167.62%21%21%211157.93%21%21%402103011416959433605763971ee80c%2112000033160710173%21sea%21BR%212235167962%21&curPageLogUid=ab1YxyhRdZDb&search_p4p_id=2023092816224011124244877655070002874794_2',
+        categoria: 'Computador',
+    },
     // Adicione mais produtos conforme necessário
 ];
 
@@ -170,5 +178,11 @@ categoriaSelect.addEventListener('change', () => {
     exibirProdutosPorCategoria(categoriaSelecionada);
 });
 
+containerProdutos.addEventListener('click',() =>{
+
+})
+
 // Inicialmente, exibir todos os produtos
 exibirProdutosPorCategoria('todos');
+
+
